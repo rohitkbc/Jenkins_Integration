@@ -1,149 +1,67 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="4" failures="0" name="com.test.TestDemo" time="42.613" errors="0" skipped="0">
+<testsuite tests="4" failures="0" name="com.test.TestDemo" time="24.669" errors="0" skipped="0">
   <properties>
-    <property name="JOB_NAME" value="SeleniumTest"/>
-    <property name="java.vendor" value="Ubuntu"/>
-    <property name="PWD" value="/home/rohit/Jenkins"/>
-    <property name="LESSCLOSE" value="/usr/bin/lesspipe %s %s"/>
-    <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="RUN_TESTS_DISPLAY_URL" value="http://localhost:8080/job/SeleniumTest/5/display/redirect?page=tests"/>
-    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="JENKINS_HOME" value="/home/rohit/.jenkins"/>
-    <property name="PATH" value="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin"/>
-    <property name="HUDSON_SERVER_COOKIE" value="77029a3f80857357"/>
-    <property name="XDG_SESSION_TYPE" value="wayland"/>
-    <property name="POM_ARTIFACTID" value="SeleniumTest"/>
-    <property name="os.name" value="Linux"/>
-    <property name="EXECUTOR_NUMBER" value="0"/>
-    <property name="sun.desktop" value="gnome"/>
-    <property name="XDG_DATA_DIRS" value="/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop"/>
-    <property name="POM_DISPLAYNAME" value="SeleniumTest"/>
-    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="XDG_RUNTIME_DIR" value="/run/user/1000"/>
-    <property name="NODE_LABELS" value="built-in"/>
-    <property name="java.runtime.version" value="11.0.17+8-post-Ubuntu-1ubuntu222.04"/>
-    <property name="user.name" value="rohit"/>
-    <property name="guice.disable.misplaced.annotation.check" value="true"/>
-    <property name="user.language" value="en"/>
-    <property name="JOB_BASE_NAME" value="SeleniumTest"/>
-    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/SeleniumTest/5/display/redirect?page=changes"/>
-    <property name="BUILD_DISPLAY_NAME" value="#5"/>
-    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-11-openjdk-amd64/lib"/>
-    <property name="QT_ACCESSIBILITY" value="1"/>
-    <property name="GNOME_TERMINAL_SERVICE" value=":1.184"/>
-    <property name="DISPLAY" value=":0"/>
-    <property name="GDMSESSION" value="ubuntu"/>
-    <property name="java.vm.compressedOopsMode" value="32-bit"/>
-    <property name="java.version" value="11.0.17"/>
-    <property name="user.timezone" value="Asia/Kolkata"/>
-    <property name="USERNAME" value="rohit"/>
-    <property name="XDG_SESSION_CLASS" value="user"/>
-    <property name="sun.arch.data.model" value="64"/>
-    <property name="NODE_NAME" value="built-in"/>
-    <property name="TERM" value="xterm-256color"/>
-    <property name="BUILD_ID" value="5"/>
-    <property name="sun.cpu.isalist" value=""/>
-    <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="SHELL" value="/bin/bash"/>
-    <property name="maven.conf" value="/home/rohit/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/my-maven/conf"/>
-    <property name="file.separator" value="/"/>
-    <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="java.class.version" value="55.0"/>
-    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
-    <property name="WAYLAND_DISPLAY" value="wayland-0"/>
-    <property name="user.country" value="IN"/>
-    <property name="java.home" value="/usr/lib/jvm/java-11-openjdk-amd64"/>
-    <property name="XDG_CONFIG_DIRS" value="/etc/xdg/xdg-ubuntu:/etc/xdg"/>
-    <property name="java.vm.info" value="mixed mode, sharing"/>
-    <property name="LESSOPEN" value="| /usr/bin/lesspipe %s"/>
-    <property name="os.version" value="5.15.0-58-generic"/>
-    <property name="SESSION_MANAGER" value="local/rohit-HP:@/tmp/.ICE-unix/1860,unix/rohit-HP:/tmp/.ICE-unix/1860"/>
-    <property name="IM_CONFIG_PHASE" value="1"/>
-    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/SeleniumTest/5/display/redirect"/>
-    <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
-    <property name="sun.font.fontmanager" value="sun.awt.X11FontManager"/>
-    <property name="path.separator" value=":"/>
-    <property name="RUN_ARTIFACTS_DISPLAY_URL" value="http://localhost:8080/job/SeleniumTest/5/display/redirect?page=artifacts"/>
-    <property name="java.vm.version" value="11.0.17+8-post-Ubuntu-1ubuntu222.04"/>
-    <property name="JOB_DISPLAY_URL" value="http://localhost:8080/job/SeleniumTest/display/redirect"/>
-    <property name="QT_IM_MODULE" value="ibus"/>
-    <property name="DESKTOP_SESSION" value="ubuntu"/>
-    <property name="SHLVL" value="1"/>
-    <property name="_" value="/usr/bin/java"/>
-    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
-    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="SYSTEMD_EXEC_PID" value="2064"/>
-    <property name="XDG_MENU_PREFIX" value="gnome-"/>
-    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
-    <property name="LOGNAME" value="rohit"/>
-    <property name="POM_PACKAGING" value="jar"/>
-    <property name="HOME" value="/home/rohit"/>
-    <property name="POM_GROUPID" value="com.app"/>
-    <property name="XMODIFIERS" value="@im=ibus"/>
-    <property name="user.home" value="/home/rohit"/>
-    <property name="BUILD_TAG" value="jenkins-SeleniumTest-5"/>
-    <property name="JENKINS_SERVER_COOKIE" value="77029a3f80857357"/>
-    <property name="GNOME_SHELL_SESSION_MODE" value="ubuntu"/>
-    <property name="HUDSON_URL" value="http://localhost:8080/"/>
-    <property name="java.version.date" value="2022-10-18"/>
-    <property name="DBUS_SESSION_BUS_ADDRESS" value="unix:path=/run/user/1000/bus"/>
-    <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="CLASSPATH" value=""/>
-    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
-    <property name="java.vendor.url" value="https://ubuntu.com/"/>
-    <property name="java.vm.vendor" value="Ubuntu"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
-    <property name="SSH_AGENT_LAUNCHER" value="gnome-keyring"/>
-    <property name="maven.home" value="/home/rohit/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/my-maven"/>
-    <property name="java.class.path" value="/home/rohit/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-agent-1.14.jar:/home/rohit/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/my-maven/boot/plexus-classworlds-2.6.0.jar:/home/rohit/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/my-maven/conf/logging"/>
-    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main /home/rohit/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/my-maven /home/rohit/.jenkins/war/WEB-INF/lib/remoting-3077.vd69cf116da_6f.jar /home/rohit/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-interceptor-1.14.jar /home/rohit/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.14.jar 46359"/>
-    <property name="jdk.debug" value="release"/>
-    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="jansi.mode" value="strip"/>
-    <property name="java.vm.specification.version" value="11"/>
-    <property name="M2_HOME" value="/home/rohit/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/my-maven"/>
-    <property name="sun.cpu.endian" value="little"/>
-    <property name="XDG_CURRENT_DESKTOP" value="ubuntu:GNOME"/>
-    <property name="VTE_VERSION" value="6800"/>
+    <property name="java.vm.version" value="11.0.17+8-post-Ubuntu-1ubuntu222.04"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-11-openjdk-amd64/lib"/>
+    <property name="maven.multiModuleProjectDirectory" value="/home/rohit/eclipse-workspace/SeleniumTest"/>
+    <property name="java.vm.vendor" value="Ubuntu"/>
+    <property name="java.vendor.url" value="https://ubuntu.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
     <property name="sun.os.patch.level" value="unknown"/>
-    <property name="XDG_SESSION_DESKTOP" value="ubuntu"/>
-    <property name="CI" value="true"/>
-    <property name="java.io.tmpdir" value="/tmp"/>
-    <property name="HUDSON_HOME" value="/home/rohit/.jenkins"/>
-    <property name="PATH+MAVEN" value="/home/rohit/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/my-maven/bin"/>
-    <property name="java.vendor.url.bug" value="https://bugs.launchpad.net/ubuntu/+source/openjdk-lts"/>
-    <property name="LS_COLORS" value="rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:"/>
-    <property name="OLDPWD" value="/home/rohit"/>
-    <property name="BUILD_URL" value="http://localhost:8080/job/SeleniumTest/5/"/>
-    <property name="GNOME_DESKTOP_SESSION_ID" value="this-is-deprecated"/>
-    <property name="SSH_AUTH_SOCK" value="/run/user/1000/keyring/ssh"/>
-    <property name="os.arch" value="amd64"/>
-    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="user.dir" value="/home/rohit/eclipse-workspace/SeleniumTest"/>
-    <property name="JOB_URL" value="http://localhost:8080/job/SeleniumTest/"/>
-    <property name="MAVEN_HOME" value="/home/rohit/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/my-maven"/>
-    <property name="XAUTHORITY" value="/run/user/1000/.mutter-Xwaylandauth.N24EZ1"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.runtime.version" value="11.0.17+8-post-Ubuntu-1ubuntu222.04"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
     <property name="line.separator" value="
 "/>
-    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
-    <property name="BUILD_NUMBER" value="5"/>
-    <property name="JENKINS_URL" value="http://localhost:8080/"/>
-    <property name="COLORTERM" value="truecolor"/>
-    <property name="GNOME_SETUP_DISPLAY" value=":1"/>
-    <property name="LANG" value="en_IN"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Linux"/>
+    <property name="classworlds.conf" value="/usr/share/maven/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
+    <property name="maven.conf" value="/usr/share/maven/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="5.15.0-60-generic"/>
+    <property name="library.jansi.path" value="/usr/share/maven/lib/jansi-native"/>
+    <property name="user.home" value="/home/rohit"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
     <property name="file.encoding" value="UTF-8"/>
-    <property name="maven3.interceptor" value="/home/rohit/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-interceptor-1.14.jar"/>
-    <property name="WORKSPACE_TMP" value="/home/rohit/.jenkins/workspace/SeleniumTest@tmp"/>
-    <property name="GNOME_TERMINAL_SCREEN" value="/org/gnome/Terminal/screen/24ffa29c_25ad_4842_9c4f_a3d50c365064"/>
-    <property name="WORKSPACE" value="/home/rohit/.jenkins/workspace/SeleniumTest"/>
-    <property name="maven3.interceptor.common" value="/home/rohit/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.14.jar"/>
-    <property name="GTK_MODULES" value="gail:atk-bridge"/>
     <property name="java.specification.version" value="11"/>
-    <property name="LANGUAGE" value="en_IN:en"/>
-    <property name="USER" value="rohit"/>
+    <property name="user.name" value="rohit"/>
+    <property name="java.class.path" value="/usr/share/maven/boot/plexus-classworlds-2.x.jar"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test"/>
+    <property name="java.home" value="/usr/lib/jvm/java-11-openjdk-amd64"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="11.0.17"/>
+    <property name="java.vendor" value="Ubuntu"/>
+    <property name="maven.home" value="/usr/share/maven"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.version.date" value="2022-10-18"/>
+    <property name="java.vendor.url.bug" value="https://bugs.launchpad.net/ubuntu/+source/openjdk-lts"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="com.test.TestDemo" name="orangeHRMLogin" time="30.244"/>
-  <testcase classname="com.test.TestDemo" name="smarterTest" time="2.811"/>
-  <testcase classname="com.test.TestDemo" name="firstTest" time="0.996"/>
-  <testcase classname="com.test.TestDemo" name="orangeHRM" time="8.562"/>
+  <testcase classname="com.test.TestDemo" name="orangeHRMLogin" time="16.634"/>
+  <testcase classname="com.test.TestDemo" name="smarterTest" time="3.347"/>
+  <testcase classname="com.test.TestDemo" name="firstTest" time="1.156"/>
+  <testcase classname="com.test.TestDemo" name="orangeHRM" time="3.532"/>
 </testsuite>

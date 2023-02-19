@@ -23,6 +23,7 @@ public class TestDemo {
 	public void beforePre() {
 		WebDriverManager.chromedriver().setup();
 		ChromeOptions options = new ChromeOptions();
+		options.setBinary("/usr/bin/google-chrome-stable");
 		options.setHeadless(true);
         driver = new ChromeDriver(options);
 	}
