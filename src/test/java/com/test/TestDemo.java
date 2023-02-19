@@ -18,7 +18,7 @@ public class TestDemo {
 	
 	@Before
 	public void beforePre() {
-		System.setProperty("webdriver.chrome.driver", "src/test/resources/chromedriver");
+		System.setProperty("webdriver.chrome.driver", "Driver/chromedriver");
         driver = new ChromeDriver();
 	}
 	
