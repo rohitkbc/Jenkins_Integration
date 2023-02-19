@@ -13,15 +13,17 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
+
 public class TestDemo {
 	
 	WebDriver driver;
 	
 	@Before
 	public void beforePre() {
+		WebDriverManager.chromedriver().setup();
 		ChromeOptions options = new ChromeOptions();
 		options.setHeadless(true);
-		System.setProperty("webdriver.chrome.driver", "Driver/chromedriver");
         driver = new ChromeDriver(options);
 	}
 	
