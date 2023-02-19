@@ -11,6 +11,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 
 public class TestDemo {
 	
@@ -18,8 +19,10 @@ public class TestDemo {
 	
 	@Before
 	public void beforePre() {
+		ChromeOptions options = new ChromeOptions();
+		options.setHeadless(true);
 		System.setProperty("webdriver.chrome.driver", "Driver/chromedriver");
-        driver = new ChromeDriver();
+        driver = new ChromeDriver(options);
 	}
 	
 	@Test
